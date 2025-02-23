@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,300;0,400;0,600;1,200;1,500;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+}
+
+
+header{
+    background-color:#0e1111;
+    width: 100%;
+    position:fixed ;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 105px ;
+
+}
+
+.logo{
+    text-decoration: none;
+    color: #0A7EC2;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+
+.navigation a{
+    color: #0A7EC2;
+    text-decoration: none;
+    font-size:  1.1em;
+    font-weight: 500; 
+    padding-left: 30px;
+
+}
+
+.navigation a:hover{
+    color: #1E3160 ;
+}
+
+section{
+    padding: 50px 100px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imgs/photo_2024-05-25_03-18-21\ copy.jpg)no-repeat;
+    background-size: cover;
+        
+    
+}
+
+.main h2{
+    color:#fff;
+    font-size: 1.4em;
+    font-weight: 500;
+    text-shadow: 4px 4px 10px black;
+    -webkit-text-stroke: 1px white;
+
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color:#ffffff  ;
+    font-size: 3em;
+    font-weight: 600;
+
+}
+
+.main h3{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-shadow: 4px 4px 5px black;
+    
+}
+
+.main-btn{
+    color: #fff;
+    background-color: #0A7EC2 ;
+    box-shadow: 4px 4px 5px black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    
+    
+
+
+
+}
+
+.main-btn:hover{
+    background-color: #1E3160 ;
+    transform: scale(1.1);
+
+
+}
+
+.social-icons a{
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #0A7EC2;
+    font-size: 2.2em;
+    font-size: 800;
+    margin-bottom: 30px;
+
+}
+
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background-color: #f0f3fd;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+
+}
+
+.card:hover{
+    transform: scale(1.2);
+    
+    
+}
+
+
+
+.icon{
+    color: #0A7EC2;
+    font-size: 8em;
+    text-align: center;
+}
+
+.icon:hover{
+    opacity: 20%;
+    transition: 0.7s ease;
+ 
+    
+}
+
+
+
+
+.info {
+    text-align: center;
+}
+
+
+
+.info h3{
+    text-align: center;
+    color: #0A7EC2;
+    font-size: 1.2em; ;
+    font-weight: 700 ;
+    margin: 10px;
+    
+
+}
+
+.bar{
+    background: #1E3160 ;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12) , 0 1px 2px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s cubic-bezier(25 ,8 ,25 ,1);
+
+
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25) , 0 10px 10px rgba(0, 0, 0, 0.22);
+
+
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(10, 126, 194)0%, rgba(10, 126, 194)100% );
+
+}
+
+.gd{
+    width: 100%;
+    animation: 3s;
+}
+.pg{
+    width: 100%;
+    animation: 3s;
+}
+.ve{
+    width: 100%;
+    animation: 3s;
+}
+.dm{
+    width: 85%;
+    animation: 3s;
+}
+.wd{
+    width: 90%;
+    animation: 3s;
+}
+
+
+.code{
+    width: 62%;
+    animation: 3s;
+}
+
+
+
+
+
+
+.projects {
+    background-color: #0e1111;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    padding: 20px;
+}
+
+
+
+.projects .content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds spacing between items */
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 100%;
+    max-width: 23em; /* Prevents it from being too wide */
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px auto; /* Centers dynamically */
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1); /* Reduce scale to prevent overflow */
+}
+
+.project-image img {
+    width: 100%;
+    display: block;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: #0e1111;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+
+
+
+
+.footer {
+    background-color: #0e1111;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+
+}
+
+.footer-title span {
+    color: #0A7EC2 ;
+}
+
+.education{
+display: flex;    
+justify-content: center;    
+font-size: 1.3em;
+padding: 0 12px 0 0;
+
+}
+
+.fa-solid{
+    color: #0A7EC2;
+}
+
+
+.footer .social-icons a{
+font-size: 1.3em;
+padding: 0 12px 0 0;
+}
+@media(max-width:1023){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main-content h2{
+        font-size: 1em;
+
+    }
+    .main-content h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .project-card {
+        width: 90%; /* Adapts for smaller screens */
+    }
+
+    .project-card:hover {
+        transform: scale(1.05); /* Prevents excessive zoom on small screens */
+    }
+}
